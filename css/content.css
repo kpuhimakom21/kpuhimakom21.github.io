@@ -1,0 +1,41 @@
+                body {
+                    font-family: 'Work Sans', sans-serif;
+                }
+                
+                .bg {
+                    background-image: url(background/bg-long.png);
+                    height: 1620px;
+                    width: 100%;
+                    background-size: cover;
+                }
+                
+                .bg-down {
+                    position: absolute;
+                    width: 100%;
+                    background-color: rgb(182, 181, 181);
+                    height: fit-content;
+                }
+                
+                .banner {
+                    color: white;
+                }
+                
+                .calon {
+                    line-height: 81px;
+                    font-size: 61px;
+                }
+                
+                .desc {
+                    max-width: 500px;
+                    display: block;
+                    font-size: 22px;
+                }
+                
+                .tebel {
+                    font-weight: 700;
+                }
+                /* Responsive */
+                
+                @media screen and (max-width: 800px) {
+                    .banner {}
+                }
