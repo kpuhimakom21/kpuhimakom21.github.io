@@ -1,18 +1,10 @@
 body.offcanvas-active {
     overflow: auto;
+    margin: 0;
 }
 
 #navbar {
     transition: all 0.5s ease;
-}
-
-.bg-ungu {
-    background-color: rgb(156, 50, 218) !important;
-    transition: 0.3s;
-}
-
-.bg-ungu:hover {
-    background-color: rgb(186, 167, 197) !important;
 }
 
 .navbar-brand {
@@ -57,7 +49,7 @@ body.offcanvas-active {
     display: none;
 }
 
-ul {
+.ul {
     float: right;
     text-align: right;
 }

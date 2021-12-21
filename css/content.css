@@ -1,41 +1,87 @@
-                body {
-                    font-family: 'Work Sans', sans-serif;
-                }
-                
-                .bg {
-                    background-image: url(background/bg-long.png);
-                    height: 1620px;
-                    width: 100%;
-                    background-size: cover;
-                }
-                
-                .bg-down {
-                    position: absolute;
-                    width: 100%;
-                    background-color: rgb(182, 181, 181);
-                    height: fit-content;
-                }
-                
-                .banner {
-                    color: white;
-                }
-                
-                .calon {
-                    line-height: 81px;
-                    font-size: 61px;
-                }
-                
-                .desc {
-                    max-width: 500px;
-                    display: block;
-                    font-size: 22px;
-                }
-                
-                .tebel {
-                    font-weight: 700;
-                }
-                /* Responsive */
-                
-                @media screen and (max-width: 800px) {
-                    .banner {}
-                }
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.bg {
+    background-image: url(background/bg-long.png);
+    height: 1620px;
+    width: 100%;
+    background-size: cover;
+}
+
+.bg-down {
+    position: relative;
+    width: 100%;
+    background: rgb(9, 16, 103);
+    background: linear-gradient(32deg, rgba(9, 16, 103, 1) 19%, rgba(33, 57, 152, 1) 40%, rgba(62, 76, 159, 1) 60%, rgba(54, 99, 241, 1) 96%);
+    height: fit-content;
+}
+
+.banner {
+    color: white;
+}
+
+.calon {
+    line-height: 81px;
+    font-size: 61px;
+}
+
+.desc {
+    max-width: 500px;
+    display: block;
+    font-size: 22px;
+}
+
+.tebel {
+    font-weight: 700;
+}
+
+.profile {
+    height: 100vh;
+}
+
+.box {
+    width: 85%;
+    margin: auto;
+    padding-right: 14px;
+    padding-left: 14px;
+    padding-top: 20px;
+    padding-bottom: 18px;
+    border: solid 10px rgb(255, 255, 255);
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.bg-box {
+    background: linear-gradient( 135deg, #FDEB71 10%, #F8D800 100%);
+}
+
+.title {
+    letter-spacing: 5px;
+    font-weight: bolder;
+    color: rgb(37, 36, 19);
+    font-size: 3vw;
+}
+
+.visi {
+    font-size: 2vw;
+}
+
+.misi {
+    list-style: none;
+    font-size: 2vw;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.box-yellow {
+    width: 85%;
+    margin: auto;
+    padding-right: 14px;
+    padding-left: 14px;
+    padding-top: 20px;
+    padding-bottom: 18px;
+    border: solid 10px rgb(240, 238, 118);
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
